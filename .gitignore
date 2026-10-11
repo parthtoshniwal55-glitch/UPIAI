@@ -1,0 +1,43 @@
+# Node & Frontend
+node_modules/
+.next/
+.vercel
+out/
+build/
+dist/
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment & Secrets
+.env
+.env*.local
+mlruns/
+*.db
+*.sqlite
+
+# Large Data Files (>50MB, stay local)
+data/processed/DMart_cleaned_dataset.csv
+*.db-shm
+*.db-wal
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
